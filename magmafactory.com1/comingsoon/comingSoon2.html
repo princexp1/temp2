@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MagmaShip</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bd-coming-soon.css">
+
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/user.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <script type='text/javascript' src='../config.js'></script>
+    <script type='text/javascript' src='../assets/js/sub.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+</head>
+
+<body class="min-vh-100 d-flex flex-column" style="background: url(../assets/head.webp);">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top navbar-shrink py-2 bg-primary-gradient" id="mainNav" style="background: rgb(255, 249, 241);" onclick="openNav()">
+        <div class="container poppins">
+            <a class=" d-flex align-items-center " href="../index.html ">
+                <span class="">
+    
+                    <img class="logoImage" src="../cropedLogo.png" alt="logo ">
+                </span><span></span></a><button data-bs-toggle="collapse " class="navbar-toggler " data-bs-target="#navcol-1 "><span class="visually-hidden ">Toggle navigation</span><span
+                    class="navbar-toggler-icon "></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item "><a class="nav-link " href="../index.html">Home</a></li>
+
+                    <li class="nav-item "><a class="nav-link " href="../index.html">Factory App</a></li>
+
+                    <li class="nav-item "><a class="nav-link " href="../index.html">Supplier App</a></li>
+                    <li class="nav-item "><a class="nav-link" href="comingSoon.html">MagmaPay</a></li>
+                    <li class="nav-item "><a class="nav-link active" href="#">MagmaShip</a></li>
+
+
+                </ul><a class="rounded-3 mouse-cursor-gradient-tracking " role="button " href="https://play.google.com/store/apps/details?id=com.magma.Factory">Download app</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <header>
+
+        <!-- <div class="container">
+            <nav class="navbar navbar-dark bg-transparenet">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.svg" alt="logo">
+                </a>
+                <span class="navbar-text ml-auto d-none d-sm-inline-block">978-130-5444 </span>
+                <span class="navbar-text d-none d-sm-inline-block">jerald_glover@glennie.tv</span>
+            </nav>
+        </div> -->
+    </header>
+    <!-- <div class="" style="margin-top:10rem; border-radius: 25px;">
+        <video width="320*2.2" height="240*2.2" autoplay muted>
+        <source src="/comingsoon/factoryVid.mp4" type="video/mp4">
+    </video> -->
+
+
+    </div>
+    <!-- <main class="my-auto" style="background-color:rgba(254, 224, 186, 0.236)"> -->
+    <main class="my-auto">
+
+        <div class="flex align-items-center" style="color:rgb(255, 102, 79); margin-top:20vh">
+
+            <div class="row">
+                <h1 class="page-title text_coming_soon">We're coming soon!</h1>
+            </div>
+            <!-- <p class="page-description h4"><span style="color:rgb(250, 0, 0)">MagmaPay</span> and <span style="color:rgb(250, 0, 0)">MagmaShip</span> is work in progress.</p> -->
+            <!-- <p class="h6">Stay connected</p> -->
+            <!-- <nav class="footer-social-links">
+                <a href="#!" class="social-link"><i class="mdi mdi-facebook-box"></i></a>
+                <a href="#!" class="social-link"><i class="mdi mdi-twitter"></i></a>
+                <a href="#!" class="social-link"><i class="mdi mdi-google"></i></a>
+                <a href="#!" class="social-link"><i class="mdi mdi-slack"></i></a>
+                <a href="#!" class="social-link"><i class="mdi mdi-skype"></i></a>
+            </nav> -->
+        </div>
+        <section class="py-5 " style="margin-top:24vh;">
+            <div class="container ">
+                <div class="border rounded border-white d-flex flex-column justify-content-between align-items-center flex-lg-row bg-primary-gradient p-4 p-lg-5 ">
+                    <div class="text-center text-lg-start py-3 py-lg-1 ">
+                        <!-- <h2 class="fw-bold mb-2 ">Subscribe to our Blogs</h2> -->
+                        <p class="mb-0 ">To stay connected and updated with @Magma.</p>
+                    </div>
+                    <form class="d-flex justify-content-center flex-wrap flex-lg-nowrap " method="get ">
+                        <div class="my-3 "><input class="border rounded-pill shadow-sm form-control " type="email " name="email " placeholder="Your Email " id="get-email "></div>
+                        <div class="my-2 "><button class="btn btn-primary shadow ms-2 animated-fill-button " onclick="getEmail() " type="submit ">Notify Me</button></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function openNav() {
+            var x = document.getElementsByClassName("collapse navbar-collapse")[0];
+            //change class name
+            if (x.className === "collapse navbar-collapse") {
+                x.className += " show";
+            } else {
+                x.className = "collapse navbar-collapse";
+            }
+        }
+    </script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+</body>
+
+</html>
